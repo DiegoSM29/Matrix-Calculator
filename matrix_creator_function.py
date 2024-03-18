@@ -8,5 +8,4 @@ def create_matrix (rows_param = 0, colums_param = 0):
     for k in range (0, colums):
       num = int(input(f"Ingrese un valor para A{i+1}{k+1}: "))
       matrix[i].append(num)
-      print("gaaaa")
   return matrix
